@@ -1,5 +1,3 @@
-
-
 const numList = [5, 6, 7, 8, 9];
 
 function sumFor(list) {
@@ -37,8 +35,6 @@ function sumRecursion(list, listLength) {
 console.log(sumRecursion(numList, 5));
 
 function sumTheSimpleWay(list) {
-
-  return _.reduce(list, function(memo, num) { return memo + num; }, 0);
-
+  return _.reduce(list, function (memo, num) { return memo + num; }, 0);
 }
 console.log(sumTheSimpleWay(numList));
